@@ -1,0 +1,26 @@
+<positions>
+    <element name="circ2">
+        <x>0.000000000</x>
+        <y>232.000000000</y>
+        <width>1065.000000000</width>
+        <height>47.000000000</height>
+    </element>
+    <element name="colorTL">
+        <x>0.000000000</x>
+        <y>52.000000000</y>
+        <width>1065.000000000</width>
+        <height>28.000000000</height>
+    </element>
+    <element name="radius of circle">
+        <x>0.000000000</x>
+        <y>104.000000000</y>
+        <width>1065.000000000</width>
+        <height>40.000000000</height>
+    </element>
+    <element name="xpos of circle">
+        <x>0.000000000</x>
+        <y>168.000000000</y>
+        <width>1065.000000000</width>
+        <height>40.000000000</height>
+    </element>
+</positions>

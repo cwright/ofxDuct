@@ -1,0 +1,270 @@
+
+{
+	"edges" : 
+	[
+		
+		{
+			"from" : 5,
+			"in" : "x",
+			"out" : "int",
+			"to" : 1
+		},
+		
+		{
+			"from" : 8,
+			"in" : "y",
+			"out" : "sum",
+			"to" : 1
+		},
+		
+		{
+			"from" : 1,
+			"in" : "location",
+			"out" : "ofPoint",
+			"to" : 2
+		},
+		
+		{
+			"from" : 0,
+			"in" : "ofColor",
+			"out" : "ofColor",
+			"to" : 2
+		},
+		
+		{
+			"from" : 4,
+			"in" : "radius",
+			"out" : "int",
+			"to" : 2
+		},
+		
+		{
+			"from" : 3,
+			"in" : "float",
+			"out" : "float",
+			"to" : 4
+		},
+		
+		{
+			"from" : 6,
+			"in" : "float",
+			"out" : "float",
+			"to" : 5
+		},
+		
+		{
+			"from" : 5,
+			"in" : "a",
+			"out" : "int",
+			"to" : 7
+		},
+		
+		{
+			"from" : 5,
+			"in" : "b",
+			"out" : "int",
+			"to" : 7
+		},
+		
+		{
+			"from" : 7,
+			"in" : "a",
+			"out" : "sum",
+			"to" : 8
+		},
+		
+		{
+			"from" : 7,
+			"in" : "b",
+			"out" : "sum",
+			"to" : 8
+		},
+		
+		{
+			"from" : 11,
+			"in" : "location",
+			"out" : "ofPoint",
+			"to" : 9
+		},
+		
+		{
+			"from" : 10,
+			"in" : "ofColor",
+			"out" : "ofColor",
+			"to" : 9
+		},
+		
+		{
+			"from" : 4,
+			"in" : "radius",
+			"out" : "int",
+			"to" : 9
+		},
+		
+		{
+			"from" : 8,
+			"in" : "b",
+			"out" : "sum",
+			"to" : 10
+		},
+		
+		{
+			"from" : 4,
+			"in" : "g",
+			"out" : "int",
+			"to" : 10
+		},
+		
+		{
+			"from" : 7,
+			"in" : "r",
+			"out" : "sum",
+			"to" : 10
+		},
+		
+		{
+			"from" : 13,
+			"in" : "x",
+			"out" : "int",
+			"to" : 11
+		},
+		
+		{
+			"from" : 4,
+			"in" : "y",
+			"out" : "int",
+			"to" : 11
+		},
+		
+		{
+			"from" : 12,
+			"in" : "float",
+			"out" : "float",
+			"to" : 13
+		}
+	],
+	"nodes" : 
+	[
+		
+		{
+			"opdata" : true,
+			"posx" : 21.0,
+			"posy" : 432.0,
+			"type" : "colorTL",
+			"uid" : 0
+		},
+		
+		{
+			"opdata" : true,
+			"posx" : 710.0,
+			"posy" : 353.0,
+			"type" : "ofPoint",
+			"uid" : 1
+		},
+		
+		{
+			"opdata" : true,
+			"posx" : 831.0,
+			"posy" : 377.0,
+			"type" : "drawCircle",
+			"uid" : 2
+		},
+		
+		{
+			"opdata" : 
+			{
+				"floatTLname" : "radius of circle"
+			},
+			"posx" : 28.0,
+			"posy" : 611.0,
+			"type" : "floatTL",
+			"uid" : 3
+		},
+		
+		{
+			"opdata" : true,
+			"posx" : 219.0,
+			"posy" : 616.0,
+			"type" : "floatToUint8",
+			"uid" : 4
+		},
+		
+		{
+			"opdata" : true,
+			"posx" : 227.0,
+			"posy" : 392.0,
+			"type" : "floatToUint8",
+			"uid" : 5
+		},
+		
+		{
+			"opdata" : 
+			{
+				"floatTLname" : "xpos of circle"
+			},
+			"posx" : 36.0,
+			"posy" : 361.0,
+			"type" : "floatTL",
+			"uid" : 6
+		},
+		
+		{
+			"opdata" : true,
+			"posx" : 385.0,
+			"posy" : 343.0,
+			"type" : "addInts",
+			"uid" : 7
+		},
+		
+		{
+			"opdata" : true,
+			"posx" : 567.0,
+			"posy" : 462.0,
+			"type" : "addInts",
+			"uid" : 8
+		},
+		
+		{
+			"opdata" : true,
+			"posx" : 854.0,
+			"posy" : 546.0,
+			"type" : "drawCircle",
+			"uid" : 9
+		},
+		
+		{
+			"opdata" : true,
+			"posx" : 729.0,
+			"posy" : 663.0,
+			"type" : "intRGBAColor",
+			"uid" : 10
+		},
+		
+		{
+			"opdata" : true,
+			"posx" : 710.0,
+			"posy" : 513.0,
+			"type" : "ofPoint",
+			"uid" : 11
+		},
+		
+		{
+			"opdata" : 
+			{
+				"floatTLname" : "circ2"
+			},
+			"posx" : 159.0,
+			"posy" : 528.0,
+			"type" : "floatTL",
+			"uid" : 12
+		},
+		
+		{
+			"opdata" : true,
+			"posx" : 294.0,
+			"posy" : 532.0,
+			"type" : "floatToUint8",
+			"uid" : 13
+		}
+	]
+}

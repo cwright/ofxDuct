@@ -9,7 +9,9 @@ serialization is done in json, and functors can have their own custom data field
 I have implemented only a few functors  here to show a working system, but I will keep adding to these myself, and gladly welcome any contributions. Adding stateless functions is actually super simple (checkout the unaryOp<> examples in the addPrototype section at the top of  testApp.cpp to see what I mean).
 
 building for current version of openFrameworks:
+
 get ofxTimeline, and its dependencies,  from  https://github.com/YCAMInterlab/ofxTimeline
+
 checkout my branch of ofxMSAInteractiveObject from https://github.com/cwright/ofxMSAInteractiveObject.git
 
 keyboard reference:

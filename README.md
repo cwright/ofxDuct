@@ -1,4 +1,4 @@
-ofxDuct : typed pipes for quick openframeworks prototypes.
+ofxDuct
 
 ofxDuct is a proof of concept for a visual programming UI for openframeworks libraries and addons. 
 ofxDuct follows the usual interface style for visual programming, the node graph, but uses different execution semantics (!!).
